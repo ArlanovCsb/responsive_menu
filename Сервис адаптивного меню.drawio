@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T12:57:25.428Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="9KyP-Ls9NAwH1c_FND-y" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T13:24:20.153Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="aS1WmWLt-0rrGzJAvy81" version="22.0.8" type="github">
   <diagram name="Страница — 1" id="uuPunn66r2rukF14f9i6">
-    <mxGraphModel dx="1195" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,7 +120,7 @@
           <mxGeometry x="578.34" y="300.56" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="czhev17gwFyfPBeKOFzl-58" value="Получение текущего меню &#xa;каждого киоска" style="swimlane;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="75.25" y="550" width="174.75" height="200" as="geometry" />
+          <mxGeometry x="-150" y="560" width="174.75" height="200" as="geometry" />
         </mxCell>
         <mxCell id="czhev17gwFyfPBeKOFzl-66" value="Kiosk" style="whiteSpace=wrap;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="czhev17gwFyfPBeKOFzl-58">
           <mxGeometry x="57.38" y="70" width="60" height="34" as="geometry" />
@@ -129,13 +129,13 @@
           <mxGeometry x="57.38000000000005" y="120" width="60" height="34" as="geometry" />
         </mxCell>
         <mxCell id="czhev17gwFyfPBeKOFzl-59" value="Форматирование меню,&#xa; если требуется" style="swimlane;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="250" y="550" width="174.75" height="200" as="geometry" />
+          <mxGeometry x="24.75" y="560" width="174.75" height="200" as="geometry" />
         </mxCell>
         <mxCell id="czhev17gwFyfPBeKOFzl-73" value="Backend" style="whiteSpace=wrap;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="czhev17gwFyfPBeKOFzl-59">
           <mxGeometry x="57.37000000000006" y="70" width="60" height="34" as="geometry" />
         </mxCell>
         <mxCell id="czhev17gwFyfPBeKOFzl-60" value="Сохранение в кэш" style="swimlane;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="424.75" y="550" width="174.75" height="200" as="geometry" />
+          <mxGeometry x="199.5" y="560" width="174.75" height="200" as="geometry" />
         </mxCell>
         <mxCell id="czhev17gwFyfPBeKOFzl-74" value="Backend" style="whiteSpace=wrap;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="czhev17gwFyfPBeKOFzl-60">
           <mxGeometry x="57.37000000000006" y="70" width="60" height="34" as="geometry" />
@@ -144,7 +144,7 @@
           <mxGeometry x="52.370000000000005" y="120" width="70" height="38" as="geometry" />
         </mxCell>
         <mxCell id="czhev17gwFyfPBeKOFzl-61" value="Запрос меню при старте&#xa; сессии или авторизации" style="swimlane;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="599.5" y="550" width="174.75" height="200" as="geometry" />
+          <mxGeometry x="374.25" y="560" width="174.75" height="200" as="geometry" />
         </mxCell>
         <mxCell id="czhev17gwFyfPBeKOFzl-84" value="Kiosk" style="whiteSpace=wrap;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="czhev17gwFyfPBeKOFzl-61">
           <mxGeometry x="59.75" y="60" width="60" height="34" as="geometry" />
@@ -166,13 +166,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="czhev17gwFyfPBeKOFzl-64" value="Отображение меню" style="swimlane;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="774.25" y="550" width="174.75" height="200" as="geometry" />
+          <mxGeometry x="549" y="560" width="174.75" height="200" as="geometry" />
         </mxCell>
         <mxCell id="czhev17gwFyfPBeKOFzl-89" value="Kiosk" style="whiteSpace=wrap;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="czhev17gwFyfPBeKOFzl-64">
           <mxGeometry x="57.370000000000005" y="60" width="60" height="34" as="geometry" />
         </mxCell>
         <mxCell id="czhev17gwFyfPBeKOFzl-65" value="Логирование результатов&#xa;и аналитика" style="swimlane;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="950" y="550" width="174.75" height="200" as="geometry" />
+          <mxGeometry x="724.75" y="560" width="174.75" height="200" as="geometry" />
         </mxCell>
         <mxCell id="czhev17gwFyfPBeKOFzl-90" value="Kafka" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="czhev17gwFyfPBeKOFzl-65">
           <mxGeometry x="50" y="46" width="70.12" height="42" as="geometry" />
@@ -182,9 +182,6 @@
         </mxCell>
         <mxCell id="czhev17gwFyfPBeKOFzl-92" value="SuperSet" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="czhev17gwFyfPBeKOFzl-65">
           <mxGeometry x="39" y="166" width="100" height="29.44" as="geometry" />
-        </mxCell>
-        <mxCell id="czhev17gwFyfPBeKOFzl-78" value="Memcached" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="590" y="403.13" width="70" height="38" as="geometry" />
         </mxCell>
         <mxCell id="czhev17gwFyfPBeKOFzl-80" value="Kiosk" style="whiteSpace=wrap;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="400.25" y="246" width="60" height="34" as="geometry" />
