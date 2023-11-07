@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T11:28:15.431Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.0.8" etag="-hlFdmACLAagqXzKNS4T" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T11:45:12.185Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="odoxc6junz6yXfOJriLY" version="22.0.8" type="github">
   <diagram name="Страница — 1" id="eCBhNXQSk46yug1XJSoR">
-    <mxGraphModel>
+    <mxGraphModel dx="700" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5RSOQaeWYb4TUYcxMb7O-2" value="Data loader" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5RSOQaeWYb4TUYcxMb7O-3" value="dish_ar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5RSOQaeWYb4TUYcxMb7O-5" value="Удалить из&amp;nbsp;bk_rec_systems_dev" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="85" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5RSOQaeWYb4TUYcxMb7O-6" value="dish" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5RSOQaeWYb4TUYcxMb7O-8" value="where alias_code::integer != -1 and dish_code::integer != -1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="180" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5RSOQaeWYb4TUYcxMb7O-9" value="dish&amp;nbsp;&lt;br&gt;JOIN&amp;nbsp;&lt;br&gt;weghts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5RSOQaeWYb4TUYcxMb7O-10" value="where alias_code::integer != -1 and dish_code::integer != -1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="245" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5RSOQaeWYb4TUYcxMb7O-12" value="where alias_code != -1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="275" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5RSOQaeWYb4TUYcxMb7O-13" value="dish_ar" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5RSOQaeWYb4TUYcxMb7O-14" value="data_struct: Dict" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="28" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5RSOQaeWYb4TUYcxMb7O-15" value="dish_ar" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5RSOQaeWYb4TUYcxMb7O-16" value="dish" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5RSOQaeWYb4TUYcxMb7O-17" value="table: SQL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="28" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5RSOQaeWYb4TUYcxMb7O-18" value="dish_ar" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
