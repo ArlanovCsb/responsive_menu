@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T08:03:32.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="RPwcBK0mK-AzRugEiXJM" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T08:04:32.235Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="4jvAbffqVDHPl8ud0Zrv" version="22.1.0" type="github">
   <diagram name="Страница — 1" id="7ipt6c0Cwv-hGQ4qa9YM">
     <mxGraphModel dx="1660" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,6 +32,18 @@
         </mxCell>
         <mxCell id="H7D9fdDfUtXYIcQK3WAR-9" value="bk_dashboards.get_dicts_dish.py" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="260" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="H7D9fdDfUtXYIcQK3WAR-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="H7D9fdDfUtXYIcQK3WAR-10" target="H7D9fdDfUtXYIcQK3WAR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H7D9fdDfUtXYIcQK3WAR-10" value="backend kiosk" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="670" y="180" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H7D9fdDfUtXYIcQK3WAR-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="H7D9fdDfUtXYIcQK3WAR-11" target="H7D9fdDfUtXYIcQK3WAR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H7D9fdDfUtXYIcQK3WAR-11" value="backend app" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="670" y="340" width="110" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
