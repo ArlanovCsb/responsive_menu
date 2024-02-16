@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-16T07:40:17.001Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="4b265xlRM-QqUbJ77M9l" version="23.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-16T10:37:47.048Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="yGVjhH3qxvbS-NKSXxNo" version="23.1.4" type="github">
   <diagram name="Страница — 1" id="qQ3Dj5i3-Ai6D21xNSfr">
     <mxGraphModel dx="1418" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,13 +80,13 @@
         <mxCell id="S0_dRdWw1GMZchleznMw-2" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="610" y="600" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="S0_dRdWw1GMZchleznMw-3" value="Таблица&amp;nbsp;&lt;br&gt;session_id&lt;br&gt;arm_id&lt;br&gt;done" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="S0_dRdWw1GMZchleznMw-3" value="Таблица 1&lt;br&gt;session_id&lt;br&gt;arm_id&lt;br&gt;bandit_id&lt;br&gt;done" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="740" y="600" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="S0_dRdWw1GMZchleznMw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S0_dRdWw1GMZchleznMw-4" target="S0_dRdWw1GMZchleznMw-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="S0_dRdWw1GMZchleznMw-4" value="Таблица&amp;nbsp;&lt;br&gt;order_id&lt;br&gt;created_at&lt;br&gt;restaraunt_id&lt;br&gt;session_id&lt;br&gt;GP&lt;br&gt;status in (9,10)&lt;br&gt;TTL?" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="S0_dRdWw1GMZchleznMw-4" value="Таблица 2&lt;br&gt;order_id&lt;br&gt;created_at&lt;br&gt;restaraunt_id&lt;br&gt;session_id&lt;br&gt;GP&lt;br&gt;status in (9,10)&lt;br&gt;TTL?" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="725" y="730" width="165" height="165" as="geometry" />
         </mxCell>
         <mxCell id="S0_dRdWw1GMZchleznMw-6" value="LEFT JOIN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -126,6 +126,12 @@
         </mxCell>
         <mxCell id="S0_dRdWw1GMZchleznMw-23" value="AirFlow" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S0_dRdWw1GMZchleznMw-25" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S0_dRdWw1GMZchleznMw-27" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Сохраняем сессии в которых не было конверсии&lt;br&gt;&lt;br&gt;При следующем запуске, нужно получить эти сессии и посмотреть, есть ли по ним успешные заказы из нового insert.&lt;br&gt;&lt;br&gt;Обрабатываем сессии из таблицы 1 с отступом равному времени работы ETL в DWH + квантиль времени заказа.&lt;br&gt;&lt;br&gt;Затем нужно обработать новые сессии из таблицы логов" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="870" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
