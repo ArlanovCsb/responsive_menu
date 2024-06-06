@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2024-06-06T13:29:47.971Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="6dh1yBmR7vF8_ahy8Gi6" version="24.4.4" type="github">
+  <diagram name="Страница — 1" id="5AfdDUo-x0-nfxsNnkXh">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Yu4jYX8S_JfL3JHadcXQ-1" value="Получение данных&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Справочник dish&lt;/div&gt;&lt;div&gt;Запрос в базу 1 при запуске контейнеров 1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yu4jYX8S_JfL3JHadcXQ-2" value="Обработка входящего запроса" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yu4jYX8S_JfL3JHadcXQ-3" value="Формирование выходного JSON" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yu4jYX8S_JfL3JHadcXQ-4" value="Загрузка модели (моделей)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yu4jYX8S_JfL3JHadcXQ-6" value="Инициализация модели" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yu4jYX8S_JfL3JHadcXQ-7" value="Ранжирование категорий" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yu4jYX8S_JfL3JHadcXQ-8" value="Получение prediction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yu4jYX8S_JfL3JHadcXQ-9" value="Добавление новинок" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="600" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yu4jYX8S_JfL3JHadcXQ-10" value="Различные бизнес правила" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yu4jYX8S_JfL3JHadcXQ-11" value="Модель кол-ва экранов апсейлов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yu4jYX8S_JfL3JHadcXQ-13" value="Работа с соусами" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yu4jYX8S_JfL3JHadcXQ-14" value="Настройки отображения товар к товару" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="680" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yu4jYX8S_JfL3JHadcXQ-16" value="Передача в конфиге списка рекомендаций" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="760" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
