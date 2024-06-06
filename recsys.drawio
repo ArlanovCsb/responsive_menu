@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T14:09:15.326Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="nlweBNlXSRyeQhLS9LGt" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-06T14:10:33.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="imW32Tjz28AbZYzr89gQ" version="24.4.4" type="github">
   <diagram name="Страница — 1" id="5AfdDUo-x0-nfxsNnkXh">
     <mxGraphModel dx="1687" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,6 +59,9 @@
         </mxCell>
         <mxCell id="LoYAlmzirU7nm4j8onz--6" value="Merge перс и неперс модели" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LoYAlmzirU7nm4j8onz--7" value="Различные фильтры, по цене" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="820" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
